@@ -122,21 +122,16 @@ for(let i = 0; i < 5; i++) {
                     
                 }
               
-               
             }
            
-          
-            
            });
           
         paragraf.append(radio);
         paragraf.append(label);
         red.append(paragraf);
         
- 
     }
     forma.append(red);
-    
     
 }
 document.body.append(forma);
