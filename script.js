@@ -3,46 +3,55 @@ pitanje1 = {
     odgovori: ["Bentbaša", "Alipašino polje", "Čengić Vila", "Baščaršija"],
     indeks_korektnog_odgovora: 3
 };
+
 pitanje2 = {
     tekst: "Kako se zove svemirski teleskop lansiran u orbitu 2022. godine?",
     odgovori: ["Habl", "Džejms Veb", "Armstrong"],
     indeks_korektnog_odgovora: 1
 };
+
 pitanje3 = {
     tekst: "Mariano Chico Frumboli je uticajni  argentinski tangeroš. Ko je njegova plesna partnerka?",
     odgovori: ["Lorena Tarantino", "Juana Sepulveda", "Geraldina Rojas"],
     indeks_korektnog_odgovora: 1
 };
+
 pitanje4 = {
     tekst: " U kom bendu je Masimo Savić započeo karijeru?",
     odgovori: ["Dorijan Grej", "Lovac u žitu", "Haklberi Fin"],
     indeks_korektnog_odgovora: 0
 };
+
 pitanje5 = {
     tekst: "Kojim od navedenih sportova se rekreativno bavi naš svetski priznati violinista Stefan Milenković?",
     odgovori: ["Skijanjem", "Streljaštvom", "Padobranstvom"],
     indeks_korektnog_odgovora: 2
 };
+
 pitanje6 = {
     tekst: "Šta proučava farmakognozija?",
     odgovori: ["Prirodne lekove biljnog, životinjskog i mineralnog porekla.", "Izgled, građu, rast, razviće, reprodukciju, metabolizam, fiziologiju, oboljenja, ekologiju, srodnost i evolutivnu istoriju biljaka.", "Metode lečenja primenom lekovitog bilja."],
     indeks_korektnog_odgovora: 0
 };
+
 pitanje7 = {
     tekst: "Praćenje bezbednosti lekova nakon njihovog stavljanja u promet naziva se:",
     odgovori: ["Farmakoepidemiologija", "Farmakokinetika", "Farmakovigilanca"],
     indeks_korektnog_odgovora: 2
 };
+
 pitanje8 = {
     tekst: "Šta predstavlja standardna devijacija u statistici?",
     odgovori: ["Aritmetičku sredinu", "Vrednost za koju u proseku elementi skupa odstupaju od aritmetičke sredine skupa."],
     indeks_korektnog_odgovora: 1
 };
+
 pitanje9 = {
     tekst: "Šta od navedenog prevozi parobrod u pesmi 'Šejn' grupe Haustor?",
     odgovori: ["Svilu", "So", "Začine"],
     indeks_korektnog_odgovora: 1
 };
+
 pitanje10 = {
     tekst: "Šta je od navedenog nije emulzija:",
     odgovori: ["Mleko", "Maslac", "Majnez", "Sok"],
@@ -121,19 +130,17 @@ for(let i = 0; i < 5; i++) {
                     par.innerHTML += `<p style="color:red;">Niste tačno odgovorili na ${i+1}. pitanje<p>`;
                     
                 }
-              
             }
            
-           });
+        });
           
         paragraf.append(radio);
         paragraf.append(label);
         red.append(paragraf);
-        
     }
     forma.append(red);
-    
 }
+
 document.body.append(forma);
 za_dugmad.append(posalji);
 za_dugmad.append(nova);

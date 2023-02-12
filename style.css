@@ -1,7 +1,6 @@
 div {
     border: 1px solid yellow;
     margin: 50px 25%;
-    
     border-radius: 10px;
     box-shadow: 2px 4px 4px 4px;
     background-color: rgb(3, 71, 91);
@@ -15,22 +14,26 @@ h2 {
 body {
     background-color: rgb(1, 5, 23);
     color: rgb(224, 224, 133);
-    
 }
+
 p {
     margin: 10px;
     padding-left: 20px;
     font-size: 20px;
 }
+
 label {
     padding-left: 5px;
 }
+
 input[type=button]:hover {
     background-color: rgb(224, 224, 133);
 }
+
 input[type=reset]:hover {
     background-color: rgb(224, 224, 133);
 }
+
 .np, .pos {
     border: 1px solid yellow;
     padding: 10px 10px;
@@ -40,19 +43,20 @@ input[type=reset]:hover {
     color:rgb(1, 5, 23);
     font-weight: bold;
 }
+
 @media screen  and (max-width:600px) {
    div {
     margin: 50px 5%;
    }
+
    body {
     font-size: small;
    }
+   
    .poruka {
     padding: 3px 0;
     margin: 0;
     width: 70%;
-   
    }
-
 }
 

@@ -4,12 +4,13 @@ body {
     background-size:auto;
     background-color: rgb(1, 5, 23);
 }
+
 div {
     position: relative;
     width: 50%; 
     float: right;
-    
 }
+
 button {
     text-decoration: none;
     color: rgb(27, 60, 89);
@@ -24,7 +25,6 @@ button {
     position: fixed;
     bottom: 50px;
     right: 50%;
-
 }
 
 button:hover {
@@ -41,7 +41,6 @@ h1 {
     position: relative;
     top: 0;
     text-align: center;
-    
 }
 
 img {
@@ -50,24 +49,26 @@ img {
     left: 40%;
     border:7px solid rgb(27, 60, 89);
     border-radius: 50%;
-    
 }
-
 
 @media screen  and (max-width:1200px) {
     div {
         width: 100%;
         float: none;
     }
+
     body {
         background-image: none;
     }
+
     h1 {
         font-size: 50px;
     }
+
     img {
         margin:-50px;
     }
+
     button {
         bottom: 200px;
         right: 35%;
