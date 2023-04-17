@@ -9,4 +9,3 @@ obtained</li>
 <li>by clicking on the new questions button, 5 new questions are
 randomly selected</li>
 </ul>
-<a href="">LIVE PERVIEW</a>
