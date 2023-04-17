@@ -1,3 +1,4 @@
-# quiz
-HTML,CSS,JS
+# quiz App
+ I used HTML,CSS,JS 
+
 
