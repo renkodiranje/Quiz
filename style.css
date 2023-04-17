@@ -1,62 +1,65 @@
 div {
-    border: 1px solid yellow;
-    margin: 50px 25%;
-    border-radius: 10px;
-    box-shadow: 2px 4px 4px 4px;
-    background-color: rgb(3, 71, 91);
+  border: 1px solid yellow;
+  margin: 50px 25%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px 4px;
+  background-color: rgb(3, 71, 91);
 }
 h2 {
-    color: rgb(231, 168, 10);
-    margin: 10px;
-    padding: 20px;
+  color: rgb(231, 168, 10);
+  margin: 10px;
+  padding: 20px;
 }
 
 body {
-    background-color: rgb(1, 5, 23);
-    color: rgb(224, 224, 133);
+  background-color: rgb(1, 5, 23);
+  color: rgb(224, 224, 133);
 }
 
 p {
-    margin: 10px;
-    padding-left: 20px;
-    font-size: 20px;
+  margin: 10px;
+  padding-left: 20px;
+  font-size: 20px;
 }
 
 label {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 
-input[type=button]:hover {
-    background-color: rgb(224, 224, 133);
+input[type="button"]:hover {
+  background-color: rgb(224, 224, 133);
 }
 
-input[type=reset]:hover {
-    background-color: rgb(224, 224, 133);
+input[type="reset"]:hover {
+  background-color: rgb(224, 224, 133);
 }
 
-.np, .pos {
-    border: 1px solid yellow;
-    padding: 10px 10px;
-    margin: 30px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 8px 4px rgb(231, 168, 10);
-    color:rgb(1, 5, 23);
-    font-weight: bold;
+.np,
+.pos {
+  border: 1px solid yellow;
+  padding: 10px 10px;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 4px rgb(231, 168, 10);
+  color: rgb(1, 5, 23);
+  font-weight: bold;
 }
+.poruka {
+  width: 50%;
+  margin: 0 25%;
+}
+@media screen and (max-width: 600px) {
+  div {
+    margin: 50px 10%;
+  }
 
-@media screen  and (max-width:600px) {
-   div {
-    margin: 50px 5%;
-   }
-
-   body {
+  body {
     font-size: small;
-   }
-   
-   .poruka {
-    padding: 3px 0;
-    margin: 0;
-    width: 70%;
-   }
-}
+  }
 
+  .poruka {
+    margin: 0 10%;
+    padding: 3px 0;
+    width: 80%;
+  }
+}
