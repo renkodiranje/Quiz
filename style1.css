@@ -4,7 +4,15 @@ body {
   background-size: auto;
   background-color: rgb(1, 5, 23);
 }
-
+header {
+  height: 20vh;
+}
+section {
+  height: 50vh;
+}
+footer {
+  height: 30vh;
+}
 div {
   position: relative;
   width: 50%;
@@ -22,14 +30,11 @@ button {
   font-family: fantasy;
   font-style: italic;
   letter-spacing: 2px;
-  position: fixed;
-  bottom: 50px;
-  right: 50%;
 }
 
 button:hover {
   box-shadow: 5px 5px 5px 10px rgb(221, 219, 118);
-  border-color: rgb(17, 0, 255);
+  border-color: rgb(11, 50, 84);
 }
 
 h1 {
@@ -38,8 +43,6 @@ h1 {
   font-size: 100px;
   font-weight: bolder;
   width: 100%;
-  position: relative;
-  top: 0;
   text-align: center;
 }
 
@@ -75,8 +78,6 @@ img {
   }
 }
 @media screen and (max-width: 400px) {
-  body {
-  }
   header h1 {
     text-align: center;
   }
@@ -88,5 +89,6 @@ img {
     position: static;
     margin: 10% auto;
     display: block;
+    position: static;
   }
 }
