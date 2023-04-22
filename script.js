@@ -137,6 +137,7 @@ for (let i = 0; i < 5; i++) {
     posalji.addEventListener("click", () => {
       radio.setAttribute("disabled", true);
       posalji.disabled = true;
+
       window.scrollTo(0, 1300);
 
       if (radio.checked == true) {
@@ -158,7 +159,9 @@ for (let i = 0; i < 5; i++) {
   }
   forma.append(red);
 }
-
+posalji.addEventListener("click", () => {
+  par.scrollIntoView();
+});
 document.body.append(forma);
 za_dugmad.append(posalji);
 za_dugmad.append(nova);
