@@ -71,15 +71,14 @@ img {
 
   img {
     display: block;
-    margin: 10% auto;
   }
 
   button {
-    bottom: 200px;
-    right: 35%;
+    display: block;
+    margin: 10% auto;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   header h1 {
     text-align: center;
   }
